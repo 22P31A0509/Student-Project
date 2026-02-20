@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 
 # -------- ADD YOUR GEMINI API KEY HERE --------
-genai.configure(api_key="AIzaSyDOTEDZL0Vwvmvx1Piiyps9mbAR404K7uc")
+genai.configure(api_key="your api key")
 
 
 
@@ -47,3 +47,4 @@ if st.button("Get Nutrition Info"):
             st.write(result)
     else:
         st.error("Please enter food items first.")
+
